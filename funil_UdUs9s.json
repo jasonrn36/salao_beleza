@@ -1,0 +1,546 @@
+{
+    "name": "Nubia Cuidados - Atendimento",
+    "nodes": [
+        {
+            "id": "wpp_0",
+            "type": "whatsapp",
+            "position": {
+                "x": -38,
+                "y": -224
+            },
+            "data": {
+                "messages[0][type]": "text",
+                "messages[0][timer]": "1",
+                "messages[0][content]": "Ol\u00e1! Seja bem-vinda ao N\u00fabia Cuidados \ud83d\udc85\u2728\nSou a assistente virtual do sal\u00e3o e estou aqui para agilizar o seu atendimento.",
+                "messages[1][type]": "text",
+                "messages[1][timer]": "1",
+                "messages[1][content]": "Como posso te ajudar hoje?",
+                "option_text": "\ud83d\udc69 Falar com a atendente",
+                "contact": "N\u00fabia Cuidados",
+                "avatar": "uploads/user_2895/pasta/6aba7b5945de37.84280657.jpg",
+                "messages": [
+                    {
+                        "type": "text",
+                        "content": "Ol\u00e1! Seja bem-vinda ao N\u00fabia Cuidados \ud83d\udc85\u2728\nSou a assistente virtual do sal\u00e3o e estou aqui para agilizar o seu atendimento.",
+                        "timer": 1,
+                        "options": []
+                    },
+                    {
+                        "type": "text",
+                        "content": "Como posso te ajudar hoje?",
+                        "timer": 1,
+                        "options": [
+                            {
+                                "text": "\ud83d\udc87 Ver servi\u00e7os e valores"
+                            },
+                            {
+                                "text": "\ud83d\udccb Agendar hor\u00e1rio agora mesmo"
+                            },
+                            {
+                                "text": "\ud83d\udccd Como chegar ao sal\u00e3o"
+                            },
+                            {
+                                "text": "\ud83d\udc69 Falar com a atendente"
+                            }
+                        ]
+                    }
+                ],
+                "name": "Boas-vindas"
+            }
+        },
+        {
+            "id": "wpp_servicos",
+            "type": "whatsapp",
+            "position": {
+                "x": 282,
+                "y": -656
+            },
+            "data": {
+                "name": "Menu de Servi\u00e7os",
+                "contact": "Sal\u00e3o Studio Bella",
+                "avatar": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=100&h=100&fit=crop",
+                "messages": [
+                    {
+                        "type": "text",
+                        "content": "Temos os seguintes servi\u00e7os dispon\u00edveis \ud83d\udc47\nEscolha o que voc\u00ea tem interesse e te passo todos os detalhes:",
+                        "timer": 1,
+                        "options": [
+                            {
+                                "text": "\u2702\ufe0f Cortes"
+                            },
+                            {
+                                "text": "\ud83c\udfa8 Colora\u00e7\u00e3o"
+                            },
+                            {
+                                "text": "\ud83d\udc86 Tratamentos"
+                            },
+                            {
+                                "text": "\ud83d\udc85 Manicure & Pedicure"
+                            },
+                            {
+                                "text": "\u21a9\ufe0f Voltar ao in\u00edcio"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "wpp_cortes",
+            "type": "whatsapp",
+            "position": {
+                "x": 940,
+                "y": -800
+            },
+            "data": {
+                "messages[0][type]": "text",
+                "messages[0][timer]": "1",
+                "messages[0][content]": "\u2702\ufe0f Tabela de Cortes:\n\nCorte feminino: R$ 60,00\nCorte + escova: R$ 90,00\nCorte infantil (at\u00e9 10 anos): R$ 40,00\nFranja: R$ 20,00\n\nN\u00e3o inclui servi\u00e7o de bordo, devido ao alto volume dos res\u00edduos de cabelos.",
+                "messages[1][type]": "text",
+                "messages[1][timer]": "1",
+                "messages[1][content]": "Quer agendar ou tem mais alguma d\u00favida?",
+                "option_text": "\ud83d\udc69 Falar com atendente",
+                "contact": "Sal\u00e3o Studio Bella",
+                "avatar": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=100&h=100&fit=crop",
+                "messages": [
+                    {
+                        "type": "text",
+                        "content": "\u2702\ufe0f Tabela de Cortes:\n\nCorte feminino: R$ 60,00\nCorte + escova: R$ 90,00\nCorte infantil (at\u00e9 10 anos): R$ 40,00\nFranja: R$ 20,00\n\nN\u00e3o inclui servi\u00e7o de bordo, devido ao alto volume dos res\u00edduos de cabelos.",
+                        "timer": 1,
+                        "options": []
+                    },
+                    {
+                        "type": "text",
+                        "content": "Quer agendar ou tem mais alguma d\u00favida?",
+                        "timer": 1,
+                        "options": [
+                            {
+                                "text": "\ud83d\udcc5 Quero agendar"
+                            },
+                            {
+                                "text": "\ud83d\udd19 Ver outros servi\u00e7os"
+                            },
+                            {
+                                "text": "\ud83d\udc69 Falar com atendente"
+                            }
+                        ]
+                    }
+                ],
+                "name": "Cortes"
+            }
+        },
+        {
+            "id": "wpp_coloracao",
+            "type": "whatsapp",
+            "position": {
+                "x": 941,
+                "y": -436
+            },
+            "data": {
+                "messages[0][type]": "text",
+                "messages[0][timer]": "1",
+                "messages[0][content]": "\ud83c\udfa8 Tabela de Colora\u00e7\u00e3o:\n\nMecha (luzes): a partir de R$ 250,00\nColora\u00e7\u00e3o completa: a partir de R$ 190,00\nBatik / Balayage: a partir de R$ 300,00\nRetoque de raiz: R$ 100,00\nTonaliza\u00e7\u00e3o: R$ 90,00\n\nTodos os nossos servi\u00e7os incluem servi\u00e7o de bordo com um kit \"\u00c1gua mineral dois sanduiches de frango light suco natural a vontade\"\n\n(Nossos valores s\u00e3o justos e fixos.\nN\u00e3o cobramos a mais pelo volume do cabelo, nem pela quantidade de produto utilizada no cabelo.)",
+                "messages[1][type]": "text",
+                "messages[1][timer]": "1",
+                "messages[1][content]": "Posso te ajudar com mais alguma coisa?",
+                "option_text": "\ud83d\udc69 Falar com atendente",
+                "contact": "Sal\u00e3o Studio Bella",
+                "avatar": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=100&h=100&fit=crop",
+                "messages": [
+                    {
+                        "type": "text",
+                        "content": "\ud83c\udfa8 Tabela de Colora\u00e7\u00e3o:\n\nMecha (luzes): a partir de R$ 250,00\nColora\u00e7\u00e3o completa: a partir de R$ 190,00\nBatik / Balayage: a partir de R$ 300,00\nRetoque de raiz: R$ 100,00\nTonaliza\u00e7\u00e3o: R$ 90,00\n\nTodos os nossos servi\u00e7os incluem servi\u00e7o de bordo com um kit \"\u00c1gua mineral dois sanduiches de frango light suco natural a vontade\"\n\n(Nossos valores s\u00e3o justos e fixos.\nN\u00e3o cobramos a mais pelo volume do cabelo, nem pela quantidade de produto utilizada no cabelo.)",
+                        "timer": 1,
+                        "options": []
+                    },
+                    {
+                        "type": "text",
+                        "content": "Posso te ajudar com mais alguma coisa?",
+                        "timer": 1,
+                        "options": [
+                            {
+                                "text": "\ud83d\udcc5 Quero agendar"
+                            },
+                            {
+                                "text": "\ud83d\udd19 Ver outros servi\u00e7os"
+                            },
+                            {
+                                "text": "\ud83d\udc69 Falar com atendente"
+                            }
+                        ]
+                    }
+                ],
+                "name": "Colora\u00e7\u00e3o"
+            }
+        },
+        {
+            "id": "wpp_tratamentos",
+            "type": "whatsapp",
+            "position": {
+                "x": 936,
+                "y": -59
+            },
+            "data": {
+                "messages[0][type]": "text",
+                "messages[0][timer]": "1",
+                "messages[0][content]": "\ud83d\udc86 Tabela de Tratamentos:\n\nBotox capilar: R$ 100,00\nHidrata\u00e7\u00e3o profunda: R$ 60,00\nProgressiva / Alisamento: a partir de R$ 180,00\nReconstru\u00e7\u00e3o capilar: R$ 80,00\nOleoterapia: R$ 50,00\n\nTodos os nossos servi\u00e7os incluem servi\u00e7o de bordo com um kit \"\u00c1gua mineral dois sanduiches de frango light suco natural a vontade\"\n\n(Nossos valores s\u00e3o justos e fixos.\nN\u00e3o cobramos a mais pelo volume do cabelo, nem pela quantidade de produto utilizada.)",
+                "messages[1][type]": "text",
+                "messages[1][timer]": "1",
+                "messages[1][content]": "Posso te ajudar com mais alguma coisa?",
+                "option_text": "\ud83d\udc69 Falar com atendente",
+                "contact": "Sal\u00e3o Studio Bella",
+                "avatar": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=100&h=100&fit=crop",
+                "messages": [
+                    {
+                        "type": "text",
+                        "content": "\ud83d\udc86 Tabela de Tratamentos:\n\nBotox capilar: R$ 100,00\nHidrata\u00e7\u00e3o profunda: R$ 60,00\nProgressiva / Alisamento: a partir de R$ 180,00\nReconstru\u00e7\u00e3o capilar: R$ 80,00\nOleoterapia: R$ 50,00\n\nTodos os nossos servi\u00e7os incluem servi\u00e7o de bordo com um kit \"\u00c1gua mineral dois sanduiches de frango light suco natural a vontade\"\n\n(Nossos valores s\u00e3o justos e fixos.\nN\u00e3o cobramos a mais pelo volume do cabelo, nem pela quantidade de produto utilizada.)",
+                        "timer": 1,
+                        "options": []
+                    },
+                    {
+                        "type": "text",
+                        "content": "Posso te ajudar com mais alguma coisa?",
+                        "timer": 1,
+                        "options": [
+                            {
+                                "text": "\ud83d\udcc5 Quero agendar"
+                            },
+                            {
+                                "text": "\ud83d\udd19 Ver outros servi\u00e7os"
+                            },
+                            {
+                                "text": "\ud83d\udc69 Falar com atendente"
+                            }
+                        ]
+                    }
+                ],
+                "name": "Tratamentos"
+            }
+        },
+        {
+            "id": "wpp_manicure",
+            "type": "whatsapp",
+            "position": {
+                "x": 934,
+                "y": 189
+            },
+            "data": {
+                "messages[0][type]": "text",
+                "messages[0][timer]": "1",
+                "messages[0][content]": "\ud83d\udc85 Tabela de Manicure & Pedicure:\n\nManicure simples: R$ 80,00\nPedicure simples: R$ 90,00\nManicure + Pedicure: R$ 160,00\nGel / Acrigel (unhas): a partir de R$ 90,00\nNail art (por dedo): R$ 15,00\n\nTodos os nossos servi\u00e7os incluem servi\u00e7o de bordo com um kit \"\u00c1gua mineral dois sanduiches de frango light suco natural a vontade\"\n\n(Nossos valores s\u00e3o justos e fixos.\nN\u00e3o cobramos a mais pelo volume do cabelo, nem pela quantidade de produto utilizada.)",
+                "messages[1][type]": "text",
+                "messages[1][timer]": "1",
+                "messages[1][content]": "Deseja agendar ou tem mais d\u00favidas?",
+                "option_text": "\ud83d\udc69 Falar com atendente",
+                "contact": "Sal\u00e3o Studio Bella",
+                "avatar": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=100&h=100&fit=crop",
+                "messages": [
+                    {
+                        "type": "text",
+                        "content": "\ud83d\udc85 Tabela de Manicure & Pedicure:\n\nManicure simples: R$ 80,00\nPedicure simples: R$ 90,00\nManicure + Pedicure: R$ 160,00\nGel / Acrigel (unhas): a partir de R$ 90,00\nNail art (por dedo): R$ 15,00\n\nTodos os nossos servi\u00e7os incluem servi\u00e7o de bordo com um kit \"\u00c1gua mineral dois sanduiches de frango light suco natural a vontade\"\n\n(Nossos valores s\u00e3o justos e fixos.\nN\u00e3o cobramos a mais pelo volume do cabelo, nem pela quantidade de produto utilizada.)",
+                        "timer": 1,
+                        "options": []
+                    },
+                    {
+                        "type": "text",
+                        "content": "Deseja agendar ou tem mais d\u00favidas?",
+                        "timer": 1,
+                        "options": [
+                            {
+                                "text": "\ud83d\udcc5 Quero agendar"
+                            },
+                            {
+                                "text": "\ud83d\udd19 Ver outros servi\u00e7os"
+                            },
+                            {
+                                "text": "\ud83d\udc69 Falar com atendente"
+                            }
+                        ]
+                    }
+                ],
+                "name": "Manicure e Pedicure"
+            }
+        },
+        {
+            "id": "wpp_agendar",
+            "type": "whatsapp",
+            "position": {
+                "x": 1397,
+                "y": -634
+            },
+            "data": {
+                "name": "Agendamento",
+                "contact": "Sal\u00e3o Studio Bella",
+                "avatar": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=100&h=100&fit=crop",
+                "messages": [
+                    {
+                        "type": "text",
+                        "content": "\u00d3timo! Para agendar, preciso de algumas informa\u00e7\u00f5es r\u00e1pidas \ud83d\ude0a\nVou te passar para nossa atendente pelo WhatsApp \u2014 ela confirma o hor\u00e1rio e tira qualquer d\u00favida!\n\nQual \u00e9 o seu nome?",
+                        "timer": 1,
+                        "options": []
+                    }
+                ]
+            }
+        },
+        {
+            "id": "wpp_nome_coletado",
+            "type": "whatsapp",
+            "position": {
+                "x": 1525,
+                "y": -227
+            },
+            "data": {
+                "name": "Confirmar Agendamento",
+                "contact": "Sal\u00e3o Studio Bella",
+                "avatar": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=100&h=100&fit=crop",
+                "messages": [
+                    {
+                        "type": "text",
+                        "content": "Perfeito! \ud83d\ude0a\nVou encaminhar suas informa\u00e7\u00f5es para nossa atendente confirmar o hor\u00e1rio dispon\u00edvel.\n\nDeseja continuar?",
+                        "timer": 1,
+                        "options": [
+                            {
+                                "text": "\u2705 Sim, enviar agora!"
+                            },
+                            {
+                                "text": "\u21a9\ufe0f Voltar ao in\u00edcio"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "sw_0",
+            "type": "send-whatsapp",
+            "position": {
+                "x": 1969,
+                "y": -112
+            },
+            "data": {
+                "name": "Atendente - Agendamento",
+                "country_code": "55",
+                "phone_number": "1987456321",
+                "message": "",
+                "collect_answers": true
+            }
+        },
+        {
+            "id": "sw_1",
+            "type": "send-whatsapp",
+            "position": {
+                "x": 1380,
+                "y": 460
+            },
+            "data": {
+                "name": "Falar com Atendente",
+                "country_code": "55",
+                "phone_number": "1987456321",
+                "message": "Ol\u00e1! Vim pelo chat do Studio Bella e gostaria de falar com a atendente \ud83d\ude0a",
+                "collect_answers": false
+            }
+        },
+        {
+            "id": "rd_maps",
+            "type": "redirect",
+            "position": {
+                "x": 599,
+                "y": 278
+            },
+            "data": {
+                "url": "https://www.google.com/maps/"
+            }
+        },
+        {
+            "id": "wpp_maps_info",
+            "type": "whatsapp",
+            "position": {
+                "x": 242,
+                "y": 157
+            },
+            "data": {
+                "messages[0][type]": "text",
+                "messages[0][timer]": "1",
+                "messages[0][content]": "\ud83d\udccd Nosso endere\u00e7o \u00e9 Rua Rio Verde 203 Bairro Bela Vista.\n\nBasta clicar abaixo para ver o caminho at\u00e9 a gente. Te esperamos com muito carinho! \ud83d\ude0d",
+                "option_text": "\u21a9\ufe0f Voltar ao in\u00edcio",
+                "contact": "Sal\u00e3o Studio Bella",
+                "avatar": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=100&h=100&fit=crop",
+                "messages": [
+                    {
+                        "type": "text",
+                        "content": "\ud83d\udccd Nosso endere\u00e7o \u00e9 Rua Rio Verde 203 Bairro Bela Vista.\n\nBasta clicar abaixo para ver o caminho at\u00e9 a gente. Te esperamos com muito carinho! \ud83d\ude0d",
+                        "timer": 1,
+                        "options": [
+                            {
+                                "text": "\ud83d\udccd Abrir no Maps"
+                            },
+                            {
+                                "text": "\u21a9\ufe0f Voltar ao in\u00edcio"
+                            }
+                        ]
+                    }
+                ],
+                "name": "Localiza\u00e7\u00e3o"
+            }
+        },
+        {
+            "id": "node_jykdyrjyr",
+            "type": "html",
+            "data": {
+                "html_content": "<!DOCTYPE html>\n<html lang=\"pt-br\"><head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin=\"\">\n    <link href=\"https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&amp;display=swap\" rel=\"stylesheet\">\n\n    \n    <title>Document</title>\n</head>\n<body>\n    <header>\n        <h2>N\u00fabia Cuidados</h2>\n    </header>\n    <section id=\"perfil\">\n        <img class=\"nudiaPhoto\" src=\"https://srv-estaticos.vercel.app/Nubia%20Cuidados.jpg\" alt=\"Imagem do perfil N\u00fabia Cuidados\" style=\"cursor: pointer;\">\n        <div class=\"button-container\">\n            <button onclick=\"window.location.href='funil.php?user=2895&amp;id=UdUs9s&amp;step=wpp_0'\" style=\"outline: rgba(74, 222, 128, 0.8) solid 2px;\">\n                <h3>INICIAR ATENDIMENTO</h3>\n            </button>\n        </div>\n    </section>\n\n    <style>\n        *{\n            margin: 0;\n            padding: 0;\n            box-sizing: border-box;\n        }\n        body{\n            font-family: \"Libre Baskerville\", serif;\n        }\n        header{\n            background-color: #f2f2f2;\n            padding: 10px;\n            text-align: center;\n        }\n        header h2{\n            font-family: \"Libre Baskerville\", serif;\n            color: #D4AF37;\n            font-size: 24px;\n        }\n        #perfil{\n            width: 100%;\n            background-color: #d2b8b8;\n            padding: 20px;\n        }\n        .nudiaPhoto{\n            width: 200px;\n            height: 200px;\n            border-radius: 50%;\n            display: block;\n            margin: 0 auto;\n        }\n        .button-container{\n            text-align: center;\n            margin-top: 10px;\n            border-bottom: none;\n        }\n        button{\n            background-color: #D4AF37;\n            border: none;\n            padding: 10px 20px;\n\n            cursor: pointer;\n            border-radius: 5px;\n        }\n        button, h3{\n            font-family: \"Libre Baskerville\", serif;\n            color: #f2f2f2;\n            font-size: 10px;\n        }\n    </style>\n\n</body></html>",
+                "show_button": false,
+                "button_color": "green",
+                "button_text": "PR\u00d3XIMO \u27a1\ufe0f",
+                "name": "index.html"
+            },
+            "position": {
+                "x": -341,
+                "y": -187
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e_0_serv",
+            "from": "wpp_0",
+            "to": "wpp_servicos",
+            "option_index": 0
+        },
+        {
+            "id": "e_serv_cortes",
+            "from": "wpp_servicos",
+            "to": "wpp_cortes",
+            "option_index": 0
+        },
+        {
+            "id": "e_serv_color",
+            "from": "wpp_servicos",
+            "to": "wpp_coloracao",
+            "option_index": 1
+        },
+        {
+            "id": "e_serv_trat",
+            "from": "wpp_servicos",
+            "to": "wpp_tratamentos",
+            "option_index": 2
+        },
+        {
+            "id": "e_serv_manic",
+            "from": "wpp_servicos",
+            "to": "wpp_manicure",
+            "option_index": 3
+        },
+        {
+            "id": "e_cortes_agendar",
+            "from": "wpp_cortes",
+            "to": "wpp_agendar",
+            "option_index": 0
+        },
+        {
+            "id": "e_cortes_servicos",
+            "from": "wpp_cortes",
+            "to": "wpp_servicos",
+            "option_index": 1
+        },
+        {
+            "id": "e_cortes_atend",
+            "from": "wpp_cortes",
+            "to": "sw_1",
+            "option_index": 2
+        },
+        {
+            "id": "e_color_agendar",
+            "from": "wpp_coloracao",
+            "to": "wpp_agendar",
+            "option_index": 0
+        },
+        {
+            "id": "e_color_servicos",
+            "from": "wpp_coloracao",
+            "to": "wpp_servicos",
+            "option_index": 1
+        },
+        {
+            "id": "e_color_atend",
+            "from": "wpp_coloracao",
+            "to": "sw_1",
+            "option_index": 2
+        },
+        {
+            "id": "e_trat_agendar",
+            "from": "wpp_tratamentos",
+            "to": "wpp_agendar",
+            "option_index": 0
+        },
+        {
+            "id": "e_trat_servicos",
+            "from": "wpp_tratamentos",
+            "to": "wpp_servicos",
+            "option_index": 1
+        },
+        {
+            "id": "e_trat_atend",
+            "from": "wpp_tratamentos",
+            "to": "sw_1",
+            "option_index": 2
+        },
+        {
+            "id": "e_manic_agendar",
+            "from": "wpp_manicure",
+            "to": "wpp_agendar",
+            "option_index": 0
+        },
+        {
+            "id": "e_manic_servicos",
+            "from": "wpp_manicure",
+            "to": "wpp_servicos",
+            "option_index": 1
+        },
+        {
+            "id": "e_manic_atend",
+            "from": "wpp_manicure",
+            "to": "sw_1",
+            "option_index": 2
+        },
+        {
+            "id": "e_maps_abrir",
+            "from": "wpp_maps_info",
+            "to": "rd_maps",
+            "option_index": 0
+        },
+        {
+            "from": "wpp_0",
+            "to": "wpp_maps_info",
+            "option_index": 2
+        },
+        {
+            "from": "wpp_0",
+            "to": "wpp_agendar",
+            "option_index": 1
+        },
+        {
+            "from": "wpp_nome_coletado",
+            "to": "wpp_0",
+            "option_index": 1
+        },
+        {
+            "from": "wpp_0",
+            "to": "sw_0",
+            "option_index": 3
+        },
+        {
+            "from": "wpp_nome_coletado",
+            "to": "sw_0",
+            "option_index": 0
+        },
+        {
+            "from": "wpp_agendar",
+            "to": "wpp_nome_coletado"
+        },
+        {
+            "from": "node_jykdyrjyr",
+            "to": "wpp_0"
+        }
+    ],
+    "track_labels": []
+}
